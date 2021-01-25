@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-springboot-grpc"
+  description: "Test SB GRPC"
+  annotations:
+    github.com/project-slug: "backstage-devportal-arch/asaintsever-test-springboot"
+    backstage.io/techdocs-ref: github:https://github.com/backstage-devportal-arch/asaintsever-test-springboot
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "user:asaintsever"

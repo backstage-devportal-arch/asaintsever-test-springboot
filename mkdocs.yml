@@ -1,0 +1,8 @@
+site_name: "test-springboot-grpc"
+site_description: "Test SB GRPC"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
